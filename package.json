@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api on raspberry pi 3 model B +",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etu31409/apiNodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etu31409/apiNodejs/issues"
+  },
+  "homepage": "https://github.com/etu31409/apiNodejs#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-dht-sensor": "^0.3.0",
+    "socket.io": "^2.2.0"
+  }
+}
